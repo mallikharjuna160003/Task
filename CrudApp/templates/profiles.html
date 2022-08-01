@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Profile data </h1>
+    <span>
+        {% for item in obj %}
+        <p>{{item.name}}</p>
+        <p>{{item.gender}}</p>
+        <p>{{item.dateofbirth}}</p>
+        <p>{{item.phone}}</p>
+        {% endfor %}
+    </span>
+   
+</body>
+</html>
